@@ -1,0 +1,15 @@
+#include <stdio.h>
+int main()
+{
+	long id;
+	float hours,salary,wage;
+	printf("Enter Employee ID\n");
+	scanf("%Id",&id);
+	printf("enter total no.of hours worked\n");
+	scanf("%f",&hours);
+	printf("enter wage per hour\n");
+	scanf("%f",&wage);
+	salary=hours*wage;
+	printf("salary=%.2f",salary);
+	return 0;
+}

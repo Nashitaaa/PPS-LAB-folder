@@ -1,0 +1,12 @@
+#include<stdio.h>
+int main()
+{
+	int x,hour,min,sec;
+	printf("enter input\n");
+	scanf("%d",&x);
+	hour=x/3600;
+	min=(x-(3600*hour))/60;
+	sec=(x-(3600*hour)-(min*60));
+	printf("%d:%d:%d\n",hour,min,sec);
+	return 0;
+}
