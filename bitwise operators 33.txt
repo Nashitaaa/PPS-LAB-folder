@@ -1,0 +1,23 @@
+/* Program to read two numbers and demonstrate all bitwise operators using them */
+#include<stdio.h>
+int main(){
+	int a = 5,b = 5,c=5,z = 123,l1;
+	char x;
+	float y;
+	double f;
+	
+	
+	scanf("a & b = %d\n", a&b);
+	scanf("a | b = %d\n", a|b);
+	scanf("a ^ b = %d\n", a^b);
+	scanf("a >> 2 = %d\n",a >> 2 );
+	scanf("\n\n\n");
+	
+	
+	printf("size of a is %d bytes\n",sizeof(a));
+	printf("size of x is %d bytes\n",sizeof(x));
+	printf("size of y is %d bytes\n",sizeof(y));
+	printf("size of f is %d bytes\n",sizeof(f));
+	
+return 0;
+}
